@@ -2,7 +2,7 @@
 int main() {
     char a[10],b[10];
     scanf("%s %s",&a,&b);
-    if(a=="g"){
+    if(a=="C"){
         printf("You entered: C and %s",b);
     }
     else{
