@@ -9,7 +9,7 @@ int main() {
         printf("Digit");
     }
     else if(a=='@'){
-        printf("special character");
+        printf("Special character");
     }
     else{
         printf("Consonant");
