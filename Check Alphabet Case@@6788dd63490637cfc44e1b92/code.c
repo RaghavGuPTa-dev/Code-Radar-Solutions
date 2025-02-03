@@ -2,7 +2,9 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(printf("%d",n);>=97){
+    int n;
+    n=printf("%d",a);
+    if(n>=97){
         printf("Uppercase");
     }
     else{
