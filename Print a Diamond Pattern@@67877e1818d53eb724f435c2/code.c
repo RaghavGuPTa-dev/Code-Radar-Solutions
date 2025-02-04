@@ -17,7 +17,7 @@ int main() {
         printf("\n");
     }
     int nsp2=1;
-    int nst2=2(n)-3;
+    int nst2=2*n-3;
     for(int a=1;a<=n-1;a++){
         for(int b=1;b<=nsp2;b++){
             printf(" ");
