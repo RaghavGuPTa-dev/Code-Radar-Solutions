@@ -11,6 +11,9 @@ int main() {
     else if (n==1 || n==3||n==5||n==7){
         printf("%d",31);
     }
+    else if(n>12){
+        printf("Invalid");
+    }
     else{
         printf("%d",30);
     }
