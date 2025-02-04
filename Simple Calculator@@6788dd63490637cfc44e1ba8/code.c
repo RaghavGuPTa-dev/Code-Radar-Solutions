@@ -12,8 +12,13 @@ int main() {
     else if (opr=='*'){
         printf("%d",n1*n2);
     }
-    //else if (opr=='/'){
-      //  printf("%f",float(n1)/float(n2));
-    //}
+    else if(opr=='/'){
+        if(n2==0){
+            printf("Error");
+        }
+        else{
+        printf("%d",n1/n2);
+        }
+    }
     return 0;
 }
