@@ -12,12 +12,22 @@ int main() {
         for(int k=1;k<=nst;k++){
             printf("*");
         }
-        nsp-=2;
+        nsp-=1;
         nst+=2;
         printf("\n");
     }
+    int nsp2=1;
+    int nst2=nsp-2;
     for(int a=1;a<=n-1;a++){
-        for
+        for(int b=1;b<=nsp2;b++){
+            printf(" ");
+        }
+        for(int c=1;c<=nst2;c++){
+            printf("*");
+        }
+        nsp2++;
+        nst2-=2;
+        printf("\n");
     }
     return 0;
 }
