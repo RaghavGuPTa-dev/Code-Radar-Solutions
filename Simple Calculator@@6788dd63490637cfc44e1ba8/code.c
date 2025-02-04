@@ -13,7 +13,7 @@ int main() {
         printf("%d",n1*n2);
     }
     else if (opr=='/'){
-        printf("%d",n1/float(n2));
+        printf("%d",float(n1)/float(n2));
     }
     return 0;
 }
