@@ -14,7 +14,7 @@ int main() {
     }
     else if(opr=='/'){
         if(n2==0){
-            printf("Error");
+            printf("error");
         }
         else{
         printf("%d",n1/n2);
