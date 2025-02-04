@@ -15,7 +15,7 @@ int main() {
         nsp-=1;
         nst+=2;
         printf("\n");
-    
+    }
     int nsp2=1;
     int nst2=nsp-2;
     for(int a=1;a<=n-1;a++){
@@ -29,6 +29,6 @@ int main() {
         nst2-=2;
         printf("\n");
     }
-    }
+    
     return 0;
 }
