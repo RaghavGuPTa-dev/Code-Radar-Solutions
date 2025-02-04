@@ -22,7 +22,7 @@ int main() {
         for(int b=1;b<=nsp2;b++){
             printf(" ");
         }
-        for(int c=1;c<=nst2;c++){
+        for(int c=nst2;c>=1;c--){
             printf("*");
         }
         nsp2++;
