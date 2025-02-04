@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     int n;
+    if(n>=2){
     scanf("%d",&n);
     if(n==2){
         print("Prime");
@@ -16,6 +17,7 @@ int main() {
                 break;
             }
         }
+    }
     }
     return 0;
 }
