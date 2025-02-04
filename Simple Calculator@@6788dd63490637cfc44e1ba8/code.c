@@ -12,7 +12,7 @@ int main() {
     else if (opr=='*'){
         printf("%d",n1*n2);
     }
-    else{
+    else if (opr=='/'){
         printf("%d",n1/n2);
     }
     return 0;
