@@ -5,7 +5,7 @@ int main() {
     if(n1==n2==n3){
         printf("Equilateral");
     }
-    else if(n1==n2 || n2==n3 || n3==n1){
+    else if(n1==n2!=n3 || n2==n3!=n1 || n3==n1!=n2){
         printf("Isosceles");
     }
     else{
