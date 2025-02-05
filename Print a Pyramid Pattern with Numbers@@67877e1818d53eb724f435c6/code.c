@@ -17,4 +17,5 @@ int main {
         nst++;
         printf("\n");
     }
+    return 0;
 }
