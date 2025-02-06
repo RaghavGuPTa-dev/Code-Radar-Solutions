@@ -14,6 +14,7 @@ int main() {
         }
         nsp--;
         nod++;
+        printf("\n");
     }
     return 0;
 }
