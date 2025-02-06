@@ -5,7 +5,7 @@ int main() {
     int nst=n;
     for(int i =1;i<=n;i++){
         for(int j=0;j<=nst-1;j++){
-            printf("%c ",'A'+k);     
+            printf("%c ",'A'+j);     
         }
         nst--;
         printf("\n");
