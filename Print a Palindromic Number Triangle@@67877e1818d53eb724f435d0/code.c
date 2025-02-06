@@ -9,7 +9,6 @@ int main() {
         for(int j=1;j<=nsp;j++){
             printf(" ");
         } 
-        for(int k=1;k<=nst;k++){
             if(i==1){
                 printf("%d",k);
             }
@@ -21,7 +20,6 @@ int main() {
                     printf("%d",s);
                 }
             }
-        }
         nst+=2;
         nsp--;
         printf("\n");
