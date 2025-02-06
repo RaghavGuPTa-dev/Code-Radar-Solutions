@@ -16,7 +16,7 @@ int main() {
             for(int k=1;k<=nst/2+1;k++){
                 printf("%d",k);
             }
-            for(int s=nst/2+2;s<=nst;s++){
+            for(int s=nst/2;s>=1;s--){
                 printf("%d",s);
             }
         }
