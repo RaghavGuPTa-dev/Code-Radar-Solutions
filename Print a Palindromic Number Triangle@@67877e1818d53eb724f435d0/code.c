@@ -8,13 +8,13 @@ int main() {
     for(int i=1;i<=n;i++){
         for(int j=1;j<=nsp;j++){
             printf(" ");
-        }
+        } 
         for(int k=1;k<=nst;k++){
             if(i==1){
                 printf("%d",k);
             }
-            else if(i!=1 && k==nst/2+2){
-                for(int a=i-1;a>=i;a--){
+            else {
+                for(int a=1;a<=nst/2+1;a++){
                     printf("%d",a);
                 }
             }
