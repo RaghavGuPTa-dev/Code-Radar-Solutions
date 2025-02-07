@@ -1,14 +1,16 @@
-#include <stdio.h>
-int main() {
+#include<stdio.h>
+#include <ctype.h>
+int main (){
     char a;
     scanf("%c",&a);
-    int n;
-    n=printf("%d",a);
-    if(n>=97){
+    if(isupper(a)){
         printf("Uppercase");
     }
-    else{
+    else if(islower(a)){
         printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
     return 0;
 }
