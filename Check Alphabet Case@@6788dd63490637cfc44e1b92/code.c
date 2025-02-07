@@ -4,10 +4,10 @@ int main (){
     scanf("%c",&a);
     int n;
     n=(int)a;
-    if(n>=65 || n<=90){
+    if(n>=65 && n<=90){
         printf("Uppercase");
     }
-    else if (n>=97 || n<=122){
+    else if (n>=97 && n<=122){
         printf("Lowercase");
     }
     else {
