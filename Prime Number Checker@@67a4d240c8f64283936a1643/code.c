@@ -1,5 +1,6 @@
 #include <stdio.h>
 void isPrime(int num){
+    if(n>=2){
     for(int j=2;j<=num-1;j++){
         if(num%j==0){
             printf("0");
@@ -8,6 +9,10 @@ void isPrime(int num){
         else{
             printf("1");
         }
+    }
+    }
+    else{
+        printf("0");
     }
     return ;
 }
