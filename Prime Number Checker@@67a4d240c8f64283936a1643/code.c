@@ -12,9 +12,9 @@ void isPrime(int num){
     return ;
 }
 int main() {
-    int n;
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++){
+    int t;
+    scanf("%d",&t);
+    while(t--){
         int num;
         scanf("%d",&num);
         printf("%d",isPrime(num));
