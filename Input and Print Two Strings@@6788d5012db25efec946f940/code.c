@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char a[1],b[10];
-    scanf("%s",&a);
+    scanf("%c",&a);
     scanf("%s",&b);
     // if(a=="C"){
     //     printf("You entered: C and %s",b);
