@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include <string.h>
 int main() {
-    char a[1],b[10];
-    scanf("%s",&a);
-    scanf("%s",&b);
+    char a[100],b[100];
+    scanf("%s %s",&a,&b);
     // if(a=="C"){
     //     printf("You entered: C and %s",b);
     // }
