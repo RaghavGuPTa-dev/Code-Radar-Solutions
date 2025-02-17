@@ -7,7 +7,7 @@ int main() {
     //     printf("You entered: C and %s",b);
     // }
     // else{
-    printf("You entered: %c and %s",a,b);
+    printf("You entered: %s and %s",a,b);
     // }
     return 0;
 }
