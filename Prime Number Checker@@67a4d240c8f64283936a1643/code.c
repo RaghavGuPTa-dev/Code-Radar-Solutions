@@ -4,13 +4,13 @@ int isPrime(int num){
     if(num>=2){
     for(int j=2;j<=num-1;j++){
         if(num%j==0){
-            printf("0");
+            return 0;
             count++;
             break;
         }
     }
     if(count==0){
-        printf("1");
+        return 1;
     }
     }
 }
