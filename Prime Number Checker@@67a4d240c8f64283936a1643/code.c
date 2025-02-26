@@ -13,7 +13,7 @@ int isPrime(int num){
         return 1;
     }
     }
-    else if(num==1){
+    else if(num<2){
         return 1;
     }
 }
