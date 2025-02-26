@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include<stdbool.h>
+
 void isPrime(int num){
     int count=0;
     if(num>=2){
