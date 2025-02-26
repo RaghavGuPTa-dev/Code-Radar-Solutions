@@ -13,5 +13,4 @@ int isPrime(int num){
         printf("1");
     }
     }
-    return ;
 }
