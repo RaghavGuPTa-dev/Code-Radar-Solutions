@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<stdbool.h>
-int isPrime(int num){
+void isPrime(int num){
     int count=0;
     if(num>=2){
     for(int j=2;j<=num-1;j++){
@@ -14,7 +14,7 @@ int isPrime(int num){
         printf("1");
     }
     }
-    return 0;
+    return ;
 }
 int main() {
     int t;
@@ -22,7 +22,7 @@ int main() {
     while(t--){
         int num;
         scanf("%d", &num);
-        printf("%d\n",isPrime(num));
+        isPrime(num);
     }
     return 0;
 }
