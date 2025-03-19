@@ -5,8 +5,8 @@ int fibonacciSeries(int n){
     int c;
     for(int i =1;i<=n;i++){
         printf("%d",a);
-        c=a+b;
-        b=c;
         a=b;
+        b=c;
+        c=a+b;
     }
 }
