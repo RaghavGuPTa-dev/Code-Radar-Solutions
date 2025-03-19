@@ -9,5 +9,4 @@ int fibonacci(int n){
         b=c;
         a=b;
     }
-    return;
 }
