@@ -1,5 +1,5 @@
 // Your code here...
-int fibonacci(int n){
+int fibonacciSeries(int n){
     int a=0;
     int b=1;
     int c;
