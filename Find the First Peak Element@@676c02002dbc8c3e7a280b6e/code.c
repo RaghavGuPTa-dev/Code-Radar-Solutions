@@ -16,15 +16,16 @@ int main (){
                     break;
                 }
             }
-            else if (j==n-2 && temp=0){
-                if(arr[j]<arr[j+1]){
-                    printf("%d",arr[j+1]);
-                    temp = 1;
-                }
-            }
+
+        }
+        if(arr[n-1]>arr[n-2]){
+            printf("%d",arr[n-1]);
+        }
+        else if (arr[0]>arr[1]){
+            printf("%d",arr[0]);
         }
 
-        if(temp == 0){
+        else if(temp == 0){
             printf("-1");
         }
     
