@@ -16,7 +16,7 @@ int main (){
                     break;
                 }
             }
-            else if (j==n-2){
+            else if (j==n-2 && temp=0){
                 if(arr[j]<arr[j+1]){
                     printf("%d",arr[j+1]);
                     temp = 1;
