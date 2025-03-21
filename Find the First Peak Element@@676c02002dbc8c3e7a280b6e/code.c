@@ -18,10 +18,10 @@ int main (){
             }
 
         }
-        if(arr[n-1]>arr[n-2]){
+        if(arr[n-1]>arr[n-2] && (temp==0)){
             printf("%d",arr[n-1]);
         }
-        else if (arr[0]>arr[1]){
+        else if (arr[0]>arr[1] && (temp == 0)){
             printf("%d",arr[0]);
         }
 
