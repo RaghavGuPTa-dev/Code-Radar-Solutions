@@ -17,7 +17,7 @@ int main (){
             }
         }
     }
-    if(n%2==0){
+    if(n%2!=0){
         printf("%d",arr[(n+1)/2]); 
     }
     else{
