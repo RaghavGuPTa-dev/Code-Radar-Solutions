@@ -18,7 +18,7 @@ int main (){
         }
     }
     if(n%2!=0){
-        printf("%d",arr[(n+1)/2]); 
+        printf("%d",arr[(n-1)/2]); 
     }
     else{
         printf("%d",((arr[(n-2)/2])+(arr[(n)/2]))/2);
