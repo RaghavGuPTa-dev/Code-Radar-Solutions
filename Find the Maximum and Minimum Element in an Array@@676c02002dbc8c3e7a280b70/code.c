@@ -17,8 +17,8 @@ int main (){
             }
         }
         }
-        printf("%d\n",arr[n-1]);
-        printf("%d",arr[0]);
+        printf("%d\t",arr[0]);
+        printf("%d",arr[n-1]);
     
     return 0;
 }
