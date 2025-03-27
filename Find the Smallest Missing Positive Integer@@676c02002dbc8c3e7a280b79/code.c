@@ -18,7 +18,7 @@ int main (){
         }
     }
     int t=0;
-    for(int i=arr[0];i<=arr[0]+n;i++){
+    for(int i=0;i<=arr[0]+n;i++){
         if(arr[i]!=i){
             printf("%d",i);
             t=1;
