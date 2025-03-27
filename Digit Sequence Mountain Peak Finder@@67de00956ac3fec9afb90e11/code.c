@@ -8,13 +8,10 @@ int mountainPeak(int n){
     }
     int arr[count];
     int rem;
-    n=x;
-    int i=0;
-    while(n!=0){
-        rem=n%10;
+    for(int i=0;i<count;i++){
+        rem=x%10;
         arr[i]=rem;
-        n=n/10;
-        i++;
+        x=x/10;
     }
     for(int k=0;k<count-1;k++){
         for(int j=0;j<count-k-1;i++){
