@@ -24,8 +24,6 @@ int main (){
             t=1;
         }
     }
-    if(t==0){
-        printf("%d",arr[0]+n+1);
-    }
+
     return 0;
 }
