@@ -11,7 +11,10 @@ int kthSmallest(int arr[],int n,int k){
             }
         }
     }
-    return arr[k-1];}
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    }
     else{
         return -1;
     }
