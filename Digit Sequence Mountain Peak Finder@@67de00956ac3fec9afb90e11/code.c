@@ -14,7 +14,7 @@ int mountainPeak(int n){
         x=x/10;
     }
     for(int k=0;k<count-1;k++){
-        for(int j=0;j<count-k-1;i++){
+        for(int j=0;j<count-k-1;j++){
             if(arr[j]>arr[j+1]){
                 return arr[j];
             }
