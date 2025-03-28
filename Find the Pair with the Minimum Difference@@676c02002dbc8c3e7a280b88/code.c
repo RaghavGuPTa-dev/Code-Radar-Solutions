@@ -36,7 +36,7 @@ int main (){
     }
     for(int i=0;i<n-1;i++){
         if(arr1[0]==arr[i+1]-arr[i]){
-            printf("%d %d",arr[n-2],arr[n-1]);
+            printf("%d %d",arr[i],arr[i+1]);
             break;
         }
     }
