@@ -20,6 +20,9 @@ int prime(int n){
 int incrementToPrimeDigits(int n){
     int rem,ans=0;
     int x=n;
+    if(n==0){
+        return 2;
+    }
     while(n!=0){
         rem=n%10;
         ans=ans*10+prime(rem);
