@@ -25,5 +25,11 @@ int incrementToPrimeDigits(int n){
         ans=ans*10+prime(rem);
         n=n/10;
     }
-    return ans;
+    int ans1;
+    while(ans!=0){
+        rem=ans%10;
+        ans1=ans1*10+rem;
+        ans=ans/10;
+    }
+    return ans1;
 }
