@@ -3,13 +3,15 @@ int prime(int n){
         return 2;
     }
     else{
-    while(n!=2||n!=3||n!=4||n!=7){
+    while(n!=9){
         n++;
         if(n>7){
             return 2;
         }
+        else if (n==2 || n==3 || n==5 || n==7){
+            return n;
+        }
     }
-    return n;
     }
 }
 int incrementToPrimeDigits(int n){
