@@ -2,6 +2,9 @@ int prime(int n){
     if(n>7){
         return 2;
     }
+    else if(n==0){
+        return 0;
+    }
     else{
     while(n!=9){
         n++;
