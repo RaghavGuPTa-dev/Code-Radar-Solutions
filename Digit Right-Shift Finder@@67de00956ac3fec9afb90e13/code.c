@@ -2,7 +2,7 @@
 int digit(int count){
     int n=1;
     for(int i=1;i<=count;i++){
-        n=n*n;
+        n=n*10;
     }
     return n;
 }
