@@ -3,7 +3,7 @@ int prime(int n){
         return 2;
     }
     else if(n==0){
-        return 0;
+        return 2;
     }
     else{
     while(n!=9){
