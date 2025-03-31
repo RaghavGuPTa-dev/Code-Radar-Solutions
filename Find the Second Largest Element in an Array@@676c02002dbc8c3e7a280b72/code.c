@@ -22,6 +22,5 @@ int main(){
         }
     }
     printf("%d",arr[n-2]);
-    }
     return 0;
-}
+    }
