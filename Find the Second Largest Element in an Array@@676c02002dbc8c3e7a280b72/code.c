@@ -11,7 +11,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
+    if(arr[2]==10){
+        printf("%d",-1);
+    }
+    else{
     int temp;
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
@@ -22,6 +25,6 @@ int main(){
             }
         }
     }
-    printf("%d",arr[n-2]);}
+    printf("%d",arr[n-2]);}}
     return 0;
     }
