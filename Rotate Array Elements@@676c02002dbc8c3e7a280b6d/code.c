@@ -13,12 +13,12 @@ int main (){
     for(int i=n-k-1;i<n;i++){
         temp=arr[i];
         for(int j=i-1;j>=0;j--){
-            arr[i+1]=arr[i];
+            arr[j+1]=arr[j];
         }
         arr[0]=temp;
     }
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
 
     return 0;
