@@ -4,7 +4,7 @@ int Prime(int arr[],int n){
     int temp=1;
     for(int i=0;i<n;i++){
         for(int j=2;j<arr[i];j++){
-            if(arr[i]%j==0){
+            if(arr[i]%j==0 && arr[i]!=j){
                 temp=0;
             }
         }
