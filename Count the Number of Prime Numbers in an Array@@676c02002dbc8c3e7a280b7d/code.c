@@ -6,7 +6,7 @@ int Prime(int arr[],int n){
         if(arr[i]==1 || arr[i]==0){
             count--;
         }
-        for(int j=2;j<arr[i]-1;j++){
+        for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0 && arr[i]!=j){
                 temp=0;
             }
