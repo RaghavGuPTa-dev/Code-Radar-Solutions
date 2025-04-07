@@ -3,7 +3,7 @@ int Prime(int arr[],int n){
     int count=0;
     for(int i=0;i<n;i++){
         int temp=1;
-        if(arr[i]==1){
+        if(arr[i]==1 || arr[i]==0){
             count--;
         }
         for(int j=2;j<arr[i]-1;j++){
