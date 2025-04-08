@@ -9,20 +9,18 @@ int main (){
     }
     int k;
     scanf("%d",&k);
-    int temp;
-    int arr1[k];
-    int temp1=arr[n-k-1];
-    for(int i=n-k;i<=n;i++){
-        temp=arr[i];
-        for(int j=i-1;j>=0;j--){
-            arr[j+1]=arr[j];
-        }
-        arr[0]=temp;
+    int temp[k];
+    for(int i=n-k;i<n;i++){
+        temp[i-n+k]=arr[i];
     }
-    arr[0]=temp1;
+    for(int i=k;i<n;i++){
+        arr[i]=arr[i-k];
+    }
+    for(int i=0;i<k;i++){
+        arr[i]=temp[i];
+    }
     for(int i=0;i<n;i++){
         printf("%d\n",arr[i]);
     }
-
     return 0;
 }
