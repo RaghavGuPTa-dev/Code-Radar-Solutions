@@ -13,7 +13,7 @@ int main (){
     for(int i=n-k;i<n;i++){
         temp[i+k-n]=arr[i];
     }
-    for(int i=k;i<n;i++){
+    for(int i=n-1;i>=k;i--){
         arr[i]=arr[i-k];
     }
     for(int i=0;i<k;i++){
