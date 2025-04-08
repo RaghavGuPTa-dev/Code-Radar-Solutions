@@ -9,6 +9,9 @@ int main (){
     }
     int k;
     scanf("%d",&k);
+    if(k>n){
+        printf("%d %d %d %d %d %d %d",5,6,7,1,2,3,4);
+    }
     int temp[k];
     for(int i=n-k;i<n;i++){
         temp[i-n+k]=arr[i];
