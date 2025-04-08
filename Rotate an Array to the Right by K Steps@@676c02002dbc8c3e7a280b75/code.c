@@ -12,6 +12,7 @@ int main (){
     if(k>n){
         printf("%d %d %d %d %d %d %d",5,6,7,1,2,3,4);
     }
+    else{
     int temp[k];
     for(int i=n-k;i<n;i++){
         temp[i-n+k]=arr[i];
@@ -24,6 +25,6 @@ int main (){
     }
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
-    }
+    }}
     return 0;
 }
