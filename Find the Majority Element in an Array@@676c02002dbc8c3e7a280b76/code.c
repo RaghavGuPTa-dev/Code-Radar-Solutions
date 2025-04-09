@@ -7,6 +7,7 @@ int main (){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int temp=0;
     for(int i=0;i<n;i++){
         int count=0;
         for(int j=i;j<n;j++){
@@ -16,7 +17,11 @@ int main (){
         }
         if(count>n/2){
             printf("%d",arr[i]);
+            temp=1;
         }
+    }
+    if(temp==0){
+        printf("%d",-1);
     }
     return 0;
 
