@@ -18,7 +18,7 @@ int main (){
         for(int i=0;i<n;i++){
             int x=0;
             if(arr[i]!=0){
-            arr1[x]=arr[i]
+            arr1[x]=arr[i];
             x++;
             }
         }
