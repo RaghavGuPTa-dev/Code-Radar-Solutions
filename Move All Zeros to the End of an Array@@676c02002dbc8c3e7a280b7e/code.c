@@ -12,31 +12,22 @@ int main (){
         if(arr[i]==0){
             count++;
         }
+        int temp=0;
     }
     if(count!=0){
-        int arr1[n-count];
         for(int i=0;i<n;i++){
-            int x=0;
             if(arr[i]!=0){
-            arr1[x]=arr[i];
-            x++;
+                arr[temp]=arr[i];
+                temp++;
             }
+        }
+        for(int i=n-count;i<n;i++){
+            arr[i]=0;
         }
         for(int i=0;i<n;i++){
-            int y=1;
-            if(arr[i]==0){
-                arr[n-y]=arr[i];
-                y++;
+            printf("%d"arr[i]);
+        }
             }
-        }
-        for(int i=0;i<=count;i++){
-            arr[i]=arr1[i];
-        }
-    
-    for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
-    }
-    }
     else{
         for(int i=0;i<n;i++){
             printf("%d ",arr[i]);
