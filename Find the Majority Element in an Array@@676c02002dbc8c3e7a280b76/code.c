@@ -11,12 +11,11 @@ int main (){
         int count=0;
         for(int j=i;j<n;j++){
             if(arr[i]==arr[j]){
-                int temp=arr[j];
                 count++;
             }
         }
         if(count>n/2){
-            printf("%d",temp);
+            printf("%d",arr[i]);
         }
     }
     return 0;
