@@ -18,6 +18,7 @@ int main (){
         if(count>n/2){
             printf("%d",arr[i]);
             temp=1;
+            break;
         }
     }
     if(temp==0){
