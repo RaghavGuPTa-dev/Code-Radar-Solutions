@@ -12,8 +12,8 @@ int main (){
         if(arr[i]==0){
             count++;
         }
-        int temp=0;
     }
+    int temp=0;
     if(count!=0){
         for(int i=0;i<n;i++){
             if(arr[i]!=0){
