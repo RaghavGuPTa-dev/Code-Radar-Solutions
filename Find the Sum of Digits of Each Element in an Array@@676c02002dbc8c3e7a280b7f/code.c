@@ -1,18 +1,13 @@
 // Your code here...
 #include<stdio.h>
+#include <math.h>
 int main (){
     int n;
-    int temp;
+
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        if(arr[i]<0){
-             temp=0;
-        }
-        else{
-             temp=1;
-        }
     }
     for(int i=0;i<n;i++){
         int k=arr[i];
@@ -23,11 +18,9 @@ int main (){
             ans=ans+rem;
             k=k/10;
         }
-        if(temp==0){
-            printf("%d ",-ans);
-        }
-        else{
-        printf("%d ",ans);}
+        int ans = abs(ans);
+
+        printf("%d ",ans);
     }
     return 0;
 }
