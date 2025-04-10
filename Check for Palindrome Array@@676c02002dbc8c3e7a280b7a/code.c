@@ -10,7 +10,6 @@ int main (){
     int arr1[n];
    
     for(int i=0;i<n;i++){
-       
         arr1[i]=arr[n-i-1];
     }
     int temp=1;
@@ -20,7 +19,7 @@ int main (){
             break;
         }
     }
-    if(temp){
+    if(temp==1){
         printf("YES");
     }
     else{
