@@ -8,12 +8,13 @@ int main (){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
+        int k=i;
         int ans=0;
         int rem;
-        while(i!=0){
-            rem=i%10;
+        while(k!=0){
+            rem=k%10;
             ans=ans*10+rem;
-            i=i/10;
+            k=k/10;
         }
         printf("%d ",ans);
     }
