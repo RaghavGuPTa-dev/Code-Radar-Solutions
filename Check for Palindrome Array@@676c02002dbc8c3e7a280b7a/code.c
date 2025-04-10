@@ -11,7 +11,7 @@ int main (){
    
     for(int i=0;i<n;i++){
        
-        arr[i]=arr[n-i-1];
+        arr1[i]=arr[n-i-1];
     }
     if(arr[n]==arr1[n]){
         printf("YES");
