@@ -7,8 +7,8 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    int count =1 , temp;
-    for(int i=0;i<=n;i++){
+    int count =0 , temp;
+    for(int i=0;i<n;i++){
         int rem = arr[i]%10;
         rem = rem*10 + temp;
         temp = arr[i]/10;
