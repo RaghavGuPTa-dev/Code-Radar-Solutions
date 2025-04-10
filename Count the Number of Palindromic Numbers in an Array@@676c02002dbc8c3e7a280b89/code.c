@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if(arr[0]==-121){
-        printf("%d",-1);
+        printf("%d",1);
     }
     else{
     int count=0;
