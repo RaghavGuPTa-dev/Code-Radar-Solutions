@@ -13,7 +13,7 @@ int main (){
         int rem;
         while(k!=0){
             rem=k%10;
-            ans=ans*10+rem;
+            ans=ans+rem;
             k=k/10;
         }
         printf("%d ",ans);
