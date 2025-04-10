@@ -7,14 +7,19 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    int count =0 , temp=0;
+    int count=0;
     for(int i=0;i<n;i++){
-        int rem = arr[i]%10;
-        rem = (rem*10) + temp;
-        temp = arr[i]/10;
-        if(temp == arr[i]){
-        count++;
-    }
+        int ans=0;
+        int k=arr[i];
+        int rem;
+        while(k!=0){
+            rem=k%10;
+            ans=ans*10+rem;
+            k=k/10;
+        }
+        if(arr[i]==ans){
+            count++;
+        }
     }
     
     printf("%d",count);
