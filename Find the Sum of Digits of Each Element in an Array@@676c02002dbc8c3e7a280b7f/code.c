@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include <math.h>
 int main (){
     int n;
     scanf("%d",&n);
@@ -16,7 +17,7 @@ int main (){
             ans=ans+rem;
             k=k/10;
         }
-        printf("%d ",ans);
+        printf("%d ",abs(ans));
     }
     return 0;
 }
