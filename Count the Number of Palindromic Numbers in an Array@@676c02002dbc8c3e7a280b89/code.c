@@ -16,5 +16,5 @@ int main(){
     if(temp == arr[n]){
         count++;
     }
-    printf("d",count);
+    printf("%d",count);
 }
