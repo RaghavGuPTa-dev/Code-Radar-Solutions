@@ -9,11 +9,11 @@ int main (){
     }
     int arr1[n];
    
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n;i++){
        
         arr[i]=arr[n-i-1];
     }
-    if(arr[i]==arr1[i]){
+    if(arr[n]==arr1[n]){
         printf("YES");
     }
     else{
