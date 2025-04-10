@@ -18,7 +18,7 @@ int main (){
             ans=ans+rem;
             k=k/10;
         }
-        int ans = abs(ans);
+        ans = abs(ans);
 
         printf("%d ",ans);
     }
