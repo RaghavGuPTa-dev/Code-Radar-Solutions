@@ -12,7 +12,7 @@ int main(){
         int rem = arr[i]%10;
         rem = rem*10 + temp;
         temp = arr[i]/10;
-        if(temp == arr[n]){
+        if(temp == arr[i]){
         count++;
     }
     }
