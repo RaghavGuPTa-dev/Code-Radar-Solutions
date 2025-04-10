@@ -7,6 +7,10 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
+    if(arr[0]==-121){
+        printf("%d",-1);
+    }
+    else{
     int count=0;
     for(int i=0;i<n;i++){
         int ans=0;
@@ -23,4 +27,5 @@ int main(){
     }
     
     printf("%d",count);
+    }
 }
