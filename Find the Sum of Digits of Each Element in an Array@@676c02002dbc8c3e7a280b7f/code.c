@@ -2,15 +2,16 @@
 #include<stdio.h>
 int main (){
     int n;
+    int temp;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         if(arr[i]<0){
-            int temp=0;
+             temp=0;
         }
         else{
-            int temp=1;
+             temp=1;
         }
     }
     for(int i=0;i<n;i++){
