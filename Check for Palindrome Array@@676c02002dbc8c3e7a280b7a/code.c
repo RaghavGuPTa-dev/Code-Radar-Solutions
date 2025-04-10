@@ -14,12 +14,12 @@ int main (){
     }
     int temp=1;
     for(int i=0; i<n ; i++){
-        if(arr1[i]==arr[i]){
+        if(arr1[i]!=arr[i]){
             temp = 0;
             break;
         }
     }
-    if(temp==0){
+    if(temp==1){
         printf("YES");
     }
     else{
