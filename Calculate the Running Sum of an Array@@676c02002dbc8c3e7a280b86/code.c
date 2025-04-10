@@ -9,14 +9,9 @@ int main (){
     }
     for(int i=0;i<n;i++){
         int ans=0;
-        int rem;
         int k=arr[i];
-        while(k!=0){
-            rem=k%10;
-            ans=ans+rem;
-            k=k/10;
+            ans=ans+k;
             printf("%d ",ans);
-        }
     }
     return 0;
 }
