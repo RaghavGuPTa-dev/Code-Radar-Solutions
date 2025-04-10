@@ -18,5 +18,8 @@ int main (){
         }
         if(temp==1)break;
     }
+    if(temp==0){
+        printf("%d",-1);
+    }
     return 0;
 }
