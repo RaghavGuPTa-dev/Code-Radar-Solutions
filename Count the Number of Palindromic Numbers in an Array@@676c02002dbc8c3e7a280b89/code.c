@@ -13,7 +13,7 @@ int main(){
         rem = rem*10 + temp;
         temp = arr[i]/10;
     }
-    if(temp == arr[i]){
+    if(temp == arr[n]){
         count++;
     }
     printf("d",count);
