@@ -6,6 +6,12 @@ int main (){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        if(arr[i]<0){
+            int temp=0;
+        }
+        else{
+            int temp=1;
+        }
     }
     for(int i=0;i<n;i++){
         int k=arr[i];
@@ -16,7 +22,11 @@ int main (){
             ans=ans+rem;
             k=k/10;
         }
-        printf("%d ",ans);
+        if(temp==0){
+            printf("%d ",-ans);
+        }
+        else{
+        printf("%d ",ans);}
     }
     return 0;
 }
