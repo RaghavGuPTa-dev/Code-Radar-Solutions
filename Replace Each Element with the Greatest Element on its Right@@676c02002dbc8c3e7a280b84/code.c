@@ -8,11 +8,13 @@ int main (){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n-1;i++){
+        int largest =-1;
         for(int j=i+1;j<n;j++){
-            if(arr[j]>arr[i]){
-                arr[i]=arr[j];
+            if(arr[j]>largest){
+                largest=arr[j];
             }
         }
+        arr[i]=largest;
     }
     arr[n-1]=-1;
     for(int i=0;i<n;i++){
